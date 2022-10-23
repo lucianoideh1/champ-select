@@ -41,11 +41,82 @@ return(
             </ul>
             </div>
 
+
+        
+        <div className="blueside-team">
+         <div className="champion-player">
+         <div className="champion-player-logo"></div>
+        <ul className="champion-player-text">
+            <li>Champion</li>
+            <li>Role</li>
+            <li>Sumoner Name</li>
+        </ul>
+        </div>
         <div className="champion-player">
         <div className="champion-player-logo"></div>
-        <span>Champion Name</span>
-        <p>Summoner Name</p>
+        <ul className="champion-player-text">
+            <li>Champion</li>
+            <li>Role</li>
+            <li>Sumoner Name</li>
+        </ul>
         </div>
+        <div className="champion-player">
+        <div className="champion-player-logo"></div>
+        <ul className="champion-player-text">
+            <li>Champion</li>
+            <li>Role</li>
+            <li>Sumoner Name</li>
+        </ul>
+        </div>
+        <div className="champion-player">
+        <div className="champion-player-logo"></div>
+        <ul className="champion-player-text">
+            <li>Champion</li>
+            <li>Role</li>
+            <li>Sumoner Name</li>
+        </ul>
+        </div>
+        </div>
+
+        
+        <div className="redside-team">
+         <div className="champion-player">
+         <div className="champion-player-logo"></div>
+        <ul className="champion-player-text">
+            <li>Champion</li>
+            <li>Role</li>
+            <li>Sumoner Name</li>
+        </ul>
+        </div>
+        <div className="champion-player">
+        <div className="champion-player-logo"></div>
+        <ul className="champion-player-text">
+            <li>Champion</li>
+            <li>Role</li>
+            <li>Sumoner Name</li>
+        </ul>
+        </div>
+        <div className="champion-player">
+        <div className="champion-player-logo"></div>
+        <ul className="champion-player-text">
+            <li>Champion</li>
+            <li>Role</li>
+            <li>Sumoner Name</li>
+        </ul>
+        </div>
+        <div className="champion-player">
+        <div className="champion-player-logo"></div>
+        <ul className="champion-player-text">
+            <li>Champion</li>
+            <li>Role</li>
+            <li>Sumoner Name</li>
+        </ul>
+        </div>
+        </div>
+
+
+
+        {/*code above this*/ }
     </div>
 )
 }
