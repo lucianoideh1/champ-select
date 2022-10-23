@@ -59,3 +59,15 @@ body {
 .champion-player ul{
   display: block;
 }
+
+.main-mid .main-circle{
+width: 400px;
+height: 400px;
+background-color: rgb(102, 102, 102);
+border-radius: 50%;
+}
+
+main {
+  display: flex;
+ justify-content: space-between;
+}
