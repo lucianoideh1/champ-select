@@ -136,19 +136,30 @@ return (
     </main>
 <footer>
   <div className="lobby-chat-container">
-<div className="lobby-chat"></div>
+<input className="lobby-chat"></input>
   </div>
-  <div className="runes-spells-container">
-<div className="runes-spells"></div>
-  </div>
+ 
+<div className="runes-spells">
+  <div className="edit-pen"></div>
+  <select name="select">
+  <option value="value1">Nueva Pagina de runas 1</option>
+  <option value="value2" selected>Nueva Pagina de runas 2</option>
+  <option value="value3">Nueva Pagina de runas 2</option>
+</select>
+  <div className="first-summoner">D</div>
+  <div className="second-summoner">F</div>
+</div>
+  
   <div className="outside-game-container">
     <div className="gamemode">
 <p>5v5</p>
 <p>Ranked Solo/Duo</p>
     </div>
-<div className="chats-logo"></div>
-<div className="quests-logo"></div>
-<div className="league-voice-logo"></div>
+<ul>
+  <li className="chats-logo">1</li>
+  <li className="quests-logo">2</li>
+  <li className="league-voice-logo">3</li>
+</ul>
   </div>
 </footer>
     {/*code above this*/}
