@@ -134,7 +134,23 @@ return (
         </div>
       </div>
     </main>
-
+<footer>
+  <div className="lobby-chat-container">
+<div className="lobby-chat"></div>
+  </div>
+  <div className="runes-spells-container">
+<div className="runes-spells"></div>
+  </div>
+  <div className="outside-game-container">
+    <div className="gamemode">
+<p>5v5</p>
+<p>Ranked Solo/Duo</p>
+    </div>
+<div className="chats-logo"></div>
+<div className="quests-logo"></div>
+<div className="league-voice-logo"></div>
+  </div>
+</footer>
     {/*code above this*/}
   </div>
 );
