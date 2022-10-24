@@ -35,7 +35,7 @@ body {
 }
 
 .champion-player{
-  margin: 20px;
+ 
   border: 1px solid black;
   width: 300px;
   height: 120px;
@@ -77,12 +77,11 @@ main {
 
 footer{
   display: flex;
-  align-items:flex-end
-  
+  align-items:flex-end;
+  justify-content: space-between;
 }
 .lobby-chat-container{
   border: 1px solid black;
-  margin-left: 20px;
   width: 400px;
   height: 200px;
   display: flex;
@@ -103,13 +102,16 @@ footer{
 }
 .outside-game-container{
   border: 1px solid black;
-  width: 100px;
-  height: 100px;
+  width: 400px;
+  height: 200px;
   display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
 }
 .outside-game-container ul li{
   border: 1px solid black;
-  padding: 5px
+  padding: 5px;
+  margin-top: 10px;
 } 
 .edit-pen{
   height: 40px;
@@ -140,6 +142,21 @@ background-color: rgb(199, 149, 74);
 margin-right: 20px;
 }
 .chats-logo{
-  max-height: 30px;
-  max-width: 50px;
+ width: 30px;
+ height: 30px;
+}
+.quests-logo{
+  width: 30px;
+ height: 30px;
+}
+.league-voice-logo{
+  width: 30px;
+  height: 30px;
+}
+.outside-game-container ul{
+  margin-right: 20px;
+  margin-top: 20px;
+}
+.gamemode{
+  text-align: end;
 }
