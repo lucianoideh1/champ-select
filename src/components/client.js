@@ -21,7 +21,12 @@ return (
           <div className="ban-example"></div>
         </li>
       </ul>
-      <ul className="bans-blueside">
+      <div className="current-stage">
+            <p>Current Thing</p>
+            <p>99</p>
+        </div>
+
+      <ul className="bans-redside">
         <li>
           <div className="ban-example"></div>
         </li>
@@ -84,10 +89,7 @@ return (
         </div>
       </div>
       <div className="main-mid">
-        <div className="current-stage">
-            <p>Current Thing</p>
-            <p>99</p>
-        </div>
+        
         <div className="main-circle">
         </div>
       </div>
